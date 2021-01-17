@@ -8,14 +8,15 @@ Javascript SDk for the MozartPay API
 
 example:
 
-``` import { mozartpay } from "mozartpay";
+``` 
+import { mozartpay } from "mozartpay";
 
 MozartPay.order({
     "buyerName": "name of buyer",
-	"amount": "2",
-	"buyerEmail": "buyerEmail",
-	"method": "payment method",
-	"price": "34",
+    "amount": "2",
+    "buyerEmail": "buyerEmail",
+    "method": "payment method",
+    "price": "34",
     "currency": "EUR"
 })
 ```
