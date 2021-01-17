@@ -8,7 +8,7 @@ Javascript SDk for the MozartPay API
 
 example:
 
-`import { mozartpay } from "mozartpay";
+``` import { mozartpay } from "mozartpay";
 
 MozartPay.order({
     "buyerName": "name of buyer",
@@ -18,4 +18,4 @@ MozartPay.order({
 	"price": "34",
     "currency": "EUR"
 })
-`
+```
