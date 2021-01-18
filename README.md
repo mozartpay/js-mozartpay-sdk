@@ -4,7 +4,13 @@ Javascript SDk for the MozartPay API
 
 # Installation
 
+To install the SDK on your machine, simply add the npm package, for example:
+
 `npm i mozartpay`
+
+Or,
+
+`yarn add @sentry/browser`
 
 example:
 
