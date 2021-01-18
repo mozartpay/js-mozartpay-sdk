@@ -19,7 +19,7 @@ import { mozartpay } from "mozartpay";
 // Creating an environment
 const clientId = "<<Mozart-client-id>";
 const clientKey = "<<Mozart-client-key>>";
-const environment = new mozartpay.session(clientId, clientKey);
+const session = new mozartpay.session(clientId, clientKey);
 
 mozartpay.order({
     "buyerName": "name of buyer",
