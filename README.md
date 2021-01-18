@@ -9,7 +9,7 @@ To install the SDK on your machine, simply add the npm package, for example:
 
 Or,
 
-`yarn add @sentry/browser`
+`yarn add mozartpay`
 
 example:
 
