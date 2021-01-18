@@ -1,6 +1,5 @@
 # js-mozartpay-sdk
-Javascript SDk for the MozartPay API
-
+This is a Javascript SDK for the MozartPay REST API. 
 
 # Installation
 
@@ -26,3 +25,14 @@ MozartPay.order({
     "currency": "EUR"
 })
 ```
+
+# Include the script tag directly
+Add the MozartPay.js script tag to the <head> of each page on your website, for example:
+
+<!-- site's <head> -->
+<script src="https://mozartpay.com/api/v1" async></script>
+
+
+
+# MozartPay REST API
+https://documenter.getpostman.com/view/9974590/TVzVjGAT
