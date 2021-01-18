@@ -35,7 +35,7 @@ mozartpay.order({
 Add the MozartPay.js script tag to the <head> of each page on your website, for example:
     
 ```
-<!--  <head> -->
+
 <script src="https://mozartpay.com/api/v1" async></script>
 
 ```
