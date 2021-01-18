@@ -16,7 +16,12 @@ example:
 ``` 
 import { mozartpay } from "mozartpay";
 
-MozartPay.order({
+// Creating an environment
+const clientId = "<<Mozart-client-id>";
+const clientKey = "<<Mozart-client-key>>";
+const environment = new mozartpay.session(clientId, clientKey);
+
+mozartpay.order({
     "buyerName": "name of buyer",
     "amount": "2",
     "buyerEmail": "buyerEmail",
